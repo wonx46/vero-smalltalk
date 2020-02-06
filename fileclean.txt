@@ -1,0 +1,3 @@
+"message_id"|"uuid"|"intent_id"|"channel"|"sender"|"language"|"message_type"|"message_text"|"confidence_score"|"timestamp"|"contextPayload"|"flow"|"id"
+"267194863955803203f11f12b-711b-4b9e-bbb4-e7e8810f68be"|"3f11f12b-711b-4b9e-bbb4-e7e8810f68be"|"dunno-notstarted"|"0"|"2671948639558032"|"NULL"|"text"|"Minta tolong cek umur kartu saya dog  082247672173 
+ Trmaksi sblumxa"|"0"|"2019-12-04 02:48:55.91300"|"{"type":"text","content":"Minta tolong cek umur kartu saya dog\\r 082247672173 \\r Trmaksi sblumxa","id":"f517c00c-8243-4e18-a8f6-ef0e5ac58214","intent":"dunno-notstarted","attributes":{"sentiment":null,"category":null,"method":null,"bankName":null,"confidence":0},"payload":{"name":"Blaztrap Putra","channel":"facebook","userid":"2671948639558032"}}"|"NULL"|"94493919"
