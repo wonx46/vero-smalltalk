@@ -1,0 +1,3 @@
+"message_id"|"uuid"|"intent_id"|"channel"|"sender"|"language"|"message_type"|"message_text"|"confidence_score"|"timestamp"|"contextPayload"|"flow"|"id"
+"258073572864064400c6f50c4-dfba-49e2-bf56-db2895284288"|"0c6f50c4-dfba-49e2-bf56-db2895284288"|"dunno-notstarted"|"0"|"2580735728640644"|"NULL"|"text"|"Minta kode puk 
+ no 081258087064"|"0"|"2019-12-04 06:14:17.20000"|"{"type":"text","content":"Minta kode puk \\r no 081258087064","id":"fb4f203d-72a3-439f-b56b-f88a0857da5a","intent":"dunno-notstarted","attributes":{"sentiment":null,"category":null,"method":null,"bankName":null,"confidence":0},"payload":{"name":"Erick","channel":"facebook","userid":"2580735728640644"}}"|"NULL"|"94508219"

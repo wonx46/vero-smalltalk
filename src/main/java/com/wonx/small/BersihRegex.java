@@ -103,16 +103,25 @@ public class BersihRegex {
 					}else{
 						tmp = tmp +" "+ string.get(i);
 						for(int x=i+1;x<string.size();x++){
-							if(!string.get(x).contains("\"payload\":{\"")){
+							if(!string.get(x).contains("\"payload\":{\"") ||string.get(x).length()<=10 ){
 								tmp = tmp +" "+ string.get(x);
+							}else if(isContainsId(string.get(x))){
+								tmp = tmp +" "+ string.get(x);
+								i = x;
+								break;
 							}else{
-								i = x - 1;
+								i = x;
 								break;
 							}
 						}
 						hasil.set( hasil.size() - 1, tmp);	
 					}
 					
+				}
+				else if(isContainsId(string.get(i))){
+					tmp = hasil.get(hasil.size() - 1);
+					tmp = tmp + string.get(i);
+					hasil.set( hasil.size() - 1, tmp);	
 				}
 				else{
 					hasil.add(string.get(i));
@@ -131,6 +140,19 @@ public class BersihRegex {
 			e.printStackTrace();
 		}
 		
+	}
+
+	private static boolean isContainsId(String s) {
+		if(s.length()>10){
+			String tmp = s.substring(s.length()-9, s.length()-1);
+			try {
+				Double d = Double.parseDouble(tmp);
+				return true;
+			} catch (Exception e) {
+				return false;
+			}
+		}
+		return false;
 	}
 
 	private static String objToSql(T_ai_message aut) {
