@@ -1,0 +1,8 @@
+"message_id"|"uuid"|"intent_id"|"channel"|"sender"|"language"|"message_type"|"message_text"|"confidence_score"|"timestamp"|"contextPayload"|"flow"|"id"
+"4341613642cd4f4825-9eb6-417c-b314-fa8efbe08abd"|"6e218c0a-9ab4-42a8-a0d5-5ef255f640fd"|"NULL"|"2"|"agent:15010073:mc_5e10c65f3d3fe"|"Bahasa Indonesia"|"text"|"Mohon maaf. Kendala terima panggilan, silakan infokan:
+\n1. Nomor benar 6281284482848,
+\n2. Keterangan sinyal,
+\n3. Lokasi,
+\n4. Keterangan gak bisa,
+\n5. Kendala dari semua nomor atau satu nomor agar dicek lebih lanjut :) "|"0"|"2020-01-05 00:14:06.97600"|"NULL"|"NULL"|"104816859"
+"mytsel1578158047375a5f1a8ac-1da2-b90c-b44b-ded40d2226a3"|"4b1e9e1e-2f87-471e-8c20-7122bdc13e43"|"othertopic"|"10"|"sms-5cf4648f291d1d09ccec1a32"|"NULL"|"text"|"Topik Lain"|"0.9"|"2020-01-05 00:14:08.22400"|"{"type":"text","content":"Topik Lain","id":"4870bed3-c635-4036-98da-bd9aea2de23b","intent":"othertopic","attributes":{"sentiment":null,"category":null,"method":null,"bankName":null,"confidence":0.9},"payload":{"name":"Nur Faizah|id|082334750517","channel":"10","userid":"sms-5cf4648f291d1d09ccec1a32"}}"|"NULL"|"104816860"
